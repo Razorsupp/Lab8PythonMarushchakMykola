@@ -1,0 +1,482 @@
+[
+    {
+        "model": "DisplayCompany.errors",
+        "pk": 1,
+        "fields": {
+            "ErrorID": 1,
+            "ErrorCode": "P001",
+            "Description": "Невідома помилка",
+            "DateReceived": "2023-11-10",
+            "ErrorLevel": "Критична",
+            "FunctionalityCategory": "Інше",
+            "Source": "Користувач"
+        }
+    },
+    {
+        "model": "DisplayCompany.errors",
+        "pk": 2,
+        "fields": {
+            "ErrorID": 2,
+            "ErrorCode": "P002",
+            "Description": "Помилка завантаження",
+            "DateReceived": "2023-11-09",
+            "ErrorLevel": "Важлива",
+            "FunctionalityCategory": "Дані",
+            "Source": "Тестувальник"
+        }
+    },
+    {
+        "model": "DisplayCompany.errors",
+        "pk": 3,
+        "fields": {
+            "ErrorID": 3,
+            "ErrorCode": "P003",
+            "Description": "Помилка збереження",
+            "DateReceived": "2023-11-08",
+            "ErrorLevel": "Незначна",
+            "FunctionalityCategory": "Інше",
+            "Source": "Тестувальник"
+        }
+    },
+    {
+        "model": "DisplayCompany.errors",
+        "pk": 4,
+        "fields": {
+            "ErrorID": 4,
+            "ErrorCode": "P004",
+            "Description": "Помилка виводу на екран",
+            "DateReceived": "2023-11-07",
+            "ErrorLevel": "Критична",
+            "FunctionalityCategory": "Інтерфейс",
+            "Source": "Користувач"
+        }
+    },
+    {
+        "model": "DisplayCompany.errors",
+        "pk": 5,
+        "fields": {
+            "ErrorID": 5,
+            "ErrorCode": "P005",
+            "Description": "Помилка авторизації",
+            "DateReceived": "2023-11-06",
+            "ErrorLevel": "Важлива",
+            "FunctionalityCategory": "Дані",
+            "Source": "Тестувальник"
+        }
+    },
+    {
+        "model": "DisplayCompany.errors",
+        "pk": 6,
+        "fields": {
+            "ErrorID": 6,
+            "ErrorCode": "P006",
+            "Description": "Помилка видалення",
+            "DateReceived": "2023-11-05",
+            "ErrorLevel": "Незначна",
+            "FunctionalityCategory": "Інше",
+            "Source": "Тестувальник"
+        }
+    },
+    {
+        "model": "DisplayCompany.errors",
+        "pk": 7,
+        "fields": {
+            "ErrorID": 7,
+            "ErrorCode": "P007",
+            "Description": "Помилка пошуку",
+            "DateReceived": "2023-11-04",
+            "ErrorLevel": "Критична",
+            "FunctionalityCategory": "Розрахунковий алгоритм",
+            "Source": "Користувач"
+        }
+    },
+    {
+        "model": "DisplayCompany.errors",
+        "pk": 8,
+        "fields": {
+            "ErrorID": 8,
+            "ErrorCode": "P008",
+            "Description": "Помилка внесення даних",
+            "DateReceived": "2023-11-03",
+            "ErrorLevel": "Важлива",
+            "FunctionalityCategory": "Дані",
+            "Source": "Тестувальник"
+        }
+    },
+    {
+        "model": "DisplayCompany.errors",
+        "pk": 9,
+        "fields": {
+            "ErrorID": 9,
+            "ErrorCode": "P009",
+            "Description": "Помилка відображення",
+            "DateReceived": "2023-11-02",
+            "ErrorLevel": "Незначна",
+            "FunctionalityCategory": "Інтерфейс",
+            "Source": "Тестувальник"
+        }
+    },
+    {
+        "model": "DisplayCompany.errors",
+        "pk": 10,
+        "fields": {
+            "ErrorID": 10,
+            "ErrorCode": "P010",
+            "Description": "Помилка синхронізації",
+            "DateReceived": "2023-11-01",
+            "ErrorLevel": "Критична",
+            "FunctionalityCategory": "Інше",
+            "Source": "Користувач"
+        }
+    },
+    {
+        "model": "DisplayCompany.errors",
+        "pk": 11,
+        "fields": {
+            "ErrorID": 11,
+            "ErrorCode": "P011",
+            "Description": "Помилка підрахунку",
+            "DateReceived": "2023-10-31",
+            "ErrorLevel": "Важлива",
+            "FunctionalityCategory": "Розрахунковий алгоритм",
+            "Source": "Тестувальник"
+        }
+    },
+    {
+        "model": "DisplayCompany.errors",
+        "pk": 12,
+        "fields": {
+            "ErrorID": 12,
+            "ErrorCode": "P012",
+            "Description": "Помилка звіту",
+            "DateReceived": "2023-10-30",
+            "ErrorLevel": "Незначна",
+            "FunctionalityCategory": "Інтерфейс",
+            "Source": "Тестувальник"
+        }
+    },
+    {
+        "model": "DisplayCompany.errors",
+        "pk": 13,
+        "fields": {
+            "ErrorID": 13,
+            "ErrorCode": "P013",
+            "Description": "Помилка імпорту",
+            "DateReceived": "2023-10-29",
+            "ErrorLevel": "Критична",
+            "FunctionalityCategory": "Дані",
+            "Source": "Користувач"
+        }
+    },
+    {
+        "model": "DisplayCompany.errors",
+        "pk": 14,
+        "fields": {
+            "ErrorID": 14,
+            "ErrorCode": "P014",
+            "Description": "Помилка експорту",
+            "DateReceived": "2023-10-28",
+            "ErrorLevel": "Важлива",
+            "FunctionalityCategory": "Дані",
+            "Source": "Тестувальник"
+        }
+    },
+    {
+        "model": "DisplayCompany.errors",
+        "pk": 15,
+        "fields": {
+            "ErrorID": 15,
+            "ErrorCode": "P015",
+            "Description": "Помилка валідації",
+            "DateReceived": "2023-10-27",
+            "ErrorLevel": "Незначна",
+            "FunctionalityCategory": "Розрахунковий алгоритм",
+            "Source": "Тестувальник"
+        }
+    },
+    {
+        "model": "DisplayCompany.errors",
+        "pk": 16,
+        "fields": {
+            "ErrorID": 16,
+            "ErrorCode": "P016",
+            "Description": "Помилка з'єднання",
+            "DateReceived": "2023-10-26",
+            "ErrorLevel": "Критична",
+            "FunctionalityCategory": "Інтерфейс",
+            "Source": "Користувач"
+        }
+    },
+    {
+        "model": "DisplayCompany.errors",
+        "pk": 17,
+        "fields": {
+            "ErrorID": 17,
+            "ErrorCode": "P017",
+            "Description": "Помилка сортування",
+            "DateReceived": "2023-10-25",
+            "ErrorLevel": "Важлива",
+            "FunctionalityCategory": "Розрахунковий алгоритм",
+            "Source": "Тестувальник"
+        }
+    },
+    {
+        "model": "DisplayCompany.errors",
+        "pk": 18,
+        "fields": {
+            "ErrorID": 18,
+            "ErrorCode": "P018",
+            "Description": "Помилка відновлення",
+            "DateReceived": "2023-10-24",
+            "ErrorLevel": "Незначна",
+            "FunctionalityCategory": "Інше",
+            "Source": "Тестувальник"
+        }
+    },
+    {
+        "model": "DisplayCompany.errors",
+        "pk": 19,
+        "fields": {
+            "ErrorID": 19,
+            "ErrorCode": "P019",
+            "Description": "Помилка реєстрації",
+            "DateReceived": "2023-10-23",
+            "ErrorLevel": "Критична",
+            "FunctionalityCategory": "Дані",
+            "Source": "Користувач"
+        }
+    },
+    {
+        "model": "DisplayCompany.errors",
+        "pk": 20,
+        "fields": {
+            "ErrorID": 20,
+            "ErrorCode": "P020",
+            "Description": "Помилка розгортання",
+            "DateReceived": "2023-10-22",
+            "ErrorLevel": "Важлива",
+            "FunctionalityCategory": "Інше",
+            "Source": "Тестувальник"
+        }
+    },
+
+
+
+
+
+
+    {
+        "model": "DisplayCompany.programmers",
+        "pk": 1,
+        "fields": {
+            "ProgrammerID": 1,
+            "Surname": "Іванов",
+            "Name": "Іван",
+            "Phone": "+380631234567"
+        }
+    },
+    {
+        "model": "DisplayCompany.programmers",
+        "pk": 2,
+        "fields": {
+            "ProgrammerID": 2,
+            "Surname": "Петров",
+            "Name": "Петро",
+            "Phone": "+380979876543"
+        }
+    },
+    {
+        "model": "DisplayCompany.programmers",
+        "pk": 3,
+        "fields": {
+            "ProgrammerID": 3,
+            "Surname": "Сидоров",
+            "Name": "Олександр",
+            "Phone": "+380501112233"
+        }
+    },
+    {
+        "model": "DisplayCompany.programmers",
+        "pk": 4,
+        "fields": {
+            "ProgrammerID": 4,
+            "Surname": "Коваленко",
+            "Name": "Ольга",
+            "Phone": "+380684455667"
+        }
+    },
+
+
+
+
+
+
+    {
+        "model": "DisplayCompany.bugfixes",
+        "pk": 1,
+        "fields": {
+            "FixID": 1,
+            "ErrorCode": 1,
+            "StartDate": "2023-11-10",
+            "FixDurationDay": 2,
+            "ProgrammerCode": 1,
+            "WorkCostPerDay": 1500.00
+        }
+    },
+    {
+        "model": "DisplayCompany.bugfixes",
+        "pk": 2,
+        "fields": {
+            "FixID": 2,
+            "ErrorCode": 2,
+            "StartDate": "2023-11-11",
+            "FixDurationDay": 3,
+            "ProgrammerCode": 3,
+            "WorkCostPerDay": 1800.00
+        }
+    },
+    {
+        "model": "DisplayCompany.bugfixes",
+        "pk": 3,
+        "fields": {
+            "FixID": 3,
+            "ErrorCode": 3,
+            "StartDate": "2023-11-12",
+            "FixDurationDay": 1,
+            "ProgrammerCode": 2,
+            "WorkCostPerDay": 1200.00
+        }
+    },
+    {
+        "model": "DisplayCompany.bugfixes",
+        "pk": 4,
+        "fields": {
+            "FixID": 4,
+            "ErrorCode": 4,
+            "StartDate": "2023-11-13",
+            "FixDurationDay": 2,
+            "ProgrammerCode": 4,
+            "WorkCostPerDay": 1600.00
+        }
+    },
+    {
+        "model": "DisplayCompany.bugfixes",
+        "pk": 5,
+        "fields": {
+            "FixID": 5,
+            "ErrorCode": 5,
+            "StartDate": "2023-11-14",
+            "FixDurationDay": 2,
+            "ProgrammerCode": 1,
+            "WorkCostPerDay": 1500.00
+        }
+    },
+    {
+        "model": "DisplayCompany.bugfixes",
+        "pk": 6,
+        "fields": {
+            "FixID": 6,
+            "ErrorCode": 6,
+            "StartDate": "2023-11-15",
+            "FixDurationDay": 3,
+            "ProgrammerCode": 3,
+            "WorkCostPerDay": 1800.00
+        }
+    },
+    {
+        "model": "DisplayCompany.bugfixes",
+        "pk": 7,
+        "fields": {
+            "FixID": 7,
+            "ErrorCode": 7,
+            "StartDate": "2023-11-16",
+            "FixDurationDay": 1,
+            "ProgrammerCode": 2,
+            "WorkCostPerDay": 1200.00
+        }
+    },
+    {
+        "model": "DisplayCompany.bugfixes",
+        "pk": 8,
+        "fields": {
+            "FixID": 8,
+            "ErrorCode": 8,
+            "StartDate": "2023-11-17",
+            "FixDurationDay": 2,
+            "ProgrammerCode": 4,
+            "WorkCostPerDay": 1600.00
+        }
+    },
+    {
+        "model": "DisplayCompany.bugfixes",
+        "pk": 9,
+        "fields": {
+            "FixID": 9,
+            "ErrorCode": 9,
+            "StartDate": "2023-11-18",
+            "FixDurationDay": 2,
+            "ProgrammerCode": 1,
+            "WorkCostPerDay": 1500.00
+        }
+    },
+    {
+        "model": "DisplayCompany.bugfixes",
+        "pk": 10,
+        "fields": {
+            "FixID": 10,
+            "ErrorCode": 10,
+            "StartDate": "2023-11-19",
+            "FixDurationDay": 3,
+            "ProgrammerCode": 3,
+            "WorkCostPerDay": 1800.00
+        }
+    },
+    {
+        "model": "DisplayCompany.bugfixes",
+        "pk": 11,
+        "fields": {
+            "FixID": 11,
+            "ErrorCode": 11,
+            "StartDate": "2023-11-20",
+            "FixDurationDay": 1,
+            "ProgrammerCode": 2,
+            "WorkCostPerDay": 1200.00
+        }
+    },
+    {
+        "model": "DisplayCompany.bugfixes",
+        "pk": 12,
+        "fields": {
+            "FixID": 12,
+            "ErrorCode": 12,
+            "StartDate": "2023-11-21",
+            "FixDurationDay": 2,
+            "ProgrammerCode": 4,
+            "WorkCostPerDay": 1600.00
+        }
+    },
+    {
+        "model": "DisplayCompany.bugfixes",
+        "pk": 13,
+        "fields": {
+            "FixID": 13,
+            "ErrorCode": 13,
+            "StartDate": "2023-11-22",
+            "FixDurationDay": 2,
+            "ProgrammerCode": 1,
+            "WorkCostPerDay": 1500.00
+        }
+    },
+    {
+        "model": "DisplayCompany.bugfixes",
+        "pk": 14,
+        "fields": {
+            "FixID": 14,
+            "ErrorCode": 14,
+            "StartDate": "2023-11-23",
+            "FixDurationDay": 3,
+            "ProgrammerCode": 3,
+            "WorkCostPerDay": 1800.00
+        }
+    }
+]
